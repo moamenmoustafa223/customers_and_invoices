@@ -46,8 +46,8 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => 'AKIAQU72CHFFYXC6MUYQ',
-            'secret' => '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',
+            'key' => '',
+            'secret' => '',
             'region' => 'us-east-1',
             'bucket' => 'mazoonsoft-app-test',
             'url' => 'https://mazoonsoft-app-test.s3.amazonaws.com',
