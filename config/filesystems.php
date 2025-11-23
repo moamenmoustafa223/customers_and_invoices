@@ -44,7 +44,17 @@ return [
             'throw' => false,
         ],
 
-
+        's3' => [
+            'driver' => 's3',
+            'key' => 'AKIAQU72CHFFYXC6MUYQ',
+            'secret' => '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',
+            'region' => 'us-east-1',
+            'bucket' => 'mazoonsoft-app-test',
+            'url' => 'https://mazoonsoft-app-test.s3.amazonaws.com',
+            'endpoint' => null,
+            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+            'throw' => true,
+        ],
 
     ],
 
