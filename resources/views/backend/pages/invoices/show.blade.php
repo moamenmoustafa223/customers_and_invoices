@@ -12,7 +12,7 @@
             <a href="{{route('invoices.index')}}" class="btn btn-info btn-sm mb-2">
                 <i class="fas fa-arrow-left me-1"></i>
                 {{trans('back.invoices')}}
-            </a>
+            </a> 
 
             <a href="{{ route('invoices.print', $invoice->id) }}" target="_blank" class="btn btn-secondary btn-sm mb-2">
                 <i class="fas fa-print me-1"></i>

@@ -73,8 +73,8 @@
                                             <label class="small mb-1">{{ trans('back.tax') }} (%)</label>
                                             <input type="number"
                                                 class="form-control form-control-sm tax-percentage text-center"
-                                                name="tax_percentage" step="0.01" value="{{ $setting->tax_percentage ?? 15 }}" min="0"
-                                                max="100">
+                                                name="tax_percentage" step="0.01"
+                                                value="{{ $setting->tax_percentage ?? 15 }}" min="0" max="100">
                                         </div>
                                         <div class="col-md-2">
                                             <label class="small mb-1">{{ trans('back.tax') }}</label>
@@ -102,7 +102,8 @@
                     <div class="row mt-3">
                         <div class="col-md-12">
                             <div class="card shadow-sm border-0">
-                                <div class="card-header py-3" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                <div class="card-header py-3"
+                                    style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
                                     <h5 class="mb-0 text-white">
                                         <i class="fas fa-list-alt me-2"></i>{{ trans('back.quotation_items') }}
                                     </h5>
@@ -113,8 +114,10 @@
                                             <thead class="table-light">
                                                 <tr>
                                                     <th width="35%">{{ trans('back.service') }}</th>
-                                                    <th width="15%" class="text-center">{{ trans('back.quantity') }}</th>
-                                                    <th width="18%" class="text-center">{{ trans('back.unit_price') }}</th>
+                                                    <th width="15%" class="text-center">{{ trans('back.quantity') }}
+                                                    </th>
+                                                    <th width="18%" class="text-center">{{ trans('back.unit_price') }}
+                                                    </th>
                                                     <th width="20%" class="text-center">{{ trans('back.total') }}</th>
                                                     <th width="12%" class="text-center">{{ trans('back.action') }}</th>
                                                 </tr>
@@ -122,19 +125,28 @@
                                             <tbody id="items-container">
                                                 <tr class="item-row" data-item-index="0">
                                                     <td>
-                                                        <input type="text" name="items[0][service_name]" class="form-control form-control-sm" placeholder="{{ trans('back.service') }}" required>
+                                                        <input type="text" name="items[0][service_name]"
+                                                            class="form-control form-control-sm"
+                                                            placeholder="{{ trans('back.service') }}" required>
                                                     </td>
                                                     <td>
-                                                        <input type="number" name="items[0][quantity]" class="form-control form-control-sm item-quantity text-center" value="1" min="1" step="1" required>
+                                                        <input type="number" name="items[0][quantity]"
+                                                            class="form-control form-control-sm item-quantity text-center"
+                                                            value="1" min="1" step="1" required>
                                                     </td>
                                                     <td>
-                                                        <input type="number" name="items[0][unit_price]" class="form-control form-control-sm item-price text-center" value="0" step="any" required>
+                                                        <input type="number" name="items[0][unit_price]"
+                                                            class="form-control form-control-sm item-price text-center"
+                                                            value="0" step="any" required>
                                                     </td>
                                                     <td>
-                                                        <input type="number" class="form-control form-control-sm item-total bg-light text-center fw-bold" value="0.000" step="any" readonly>
+                                                        <input type="number"
+                                                            class="form-control form-control-sm item-total bg-light text-center fw-bold"
+                                                            value="0.000" step="any" readonly>
                                                     </td>
                                                     <td class="text-center">
-                                                        <button type="button" class="btn btn-danger btn-sm remove-item" disabled>
+                                                        <button type="button" class="btn btn-danger btn-sm remove-item"
+                                                            disabled>
                                                             <i class="fas fa-trash-alt"></i>
                                                         </button>
                                                     </td>
@@ -167,8 +179,7 @@
                         </div>
                     </div>
                     <div class="text-center mt-2">
-                        <button type="submit"
-                                class="btn btn-success">{{ trans('back.create_quotation') }}</button>
+                        <button type="submit" class="btn btn-success">{{ trans('back.create_quotation') }}</button>
                     </div>
                 </form>
             </div>

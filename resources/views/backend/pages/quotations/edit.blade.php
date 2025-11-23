@@ -139,7 +139,7 @@
                                                     </tr>
                                                 @endforeach
                                             </tbody>
-                                        </table>
+                                        </table> 
                                     </div>
                                     <button type="button" class="btn btn-primary btn-sm mt-2" id="add-item-btn">
                                         <i class="fas fa-plus-circle me-1"></i> {{trans('back.add_service')}}

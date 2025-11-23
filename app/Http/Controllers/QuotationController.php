@@ -235,7 +235,7 @@ class QuotationController extends Controller
         toast(__('back.deleted_successfully'), 'success');
         return redirect()->route('quotations.index');
     }
-
+ 
     /**
      * Convert quotation to invoice
      */

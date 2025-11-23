@@ -80,7 +80,7 @@
                                     </tr>
                                 @endforeach
                             </tbody>
-                        </table>
+                        </table> 
                     </div>
                     <div>
                         <table class="table table-sm table-nowrap align-middle mb-0 ms-auto" style="width:335px">

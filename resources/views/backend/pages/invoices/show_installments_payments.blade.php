@@ -5,7 +5,7 @@
 @section('content')
 
     <div class="row">
-
+ 
         {{--بيانات الفاتورة--}}
         <div class="col-md-12">
             <div class="card-box ">

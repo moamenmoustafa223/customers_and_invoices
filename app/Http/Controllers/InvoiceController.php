@@ -83,7 +83,7 @@ class InvoiceController extends Controller
             'installments.*.due_date' => 'nullable|date',
             'installments.*.amount' => 'nullable|numeric|min:0',
         ]);
-
+ 
         DB::beginTransaction();
         try {
             // Generate unique invoice number

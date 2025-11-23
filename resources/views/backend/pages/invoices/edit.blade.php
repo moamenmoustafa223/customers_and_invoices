@@ -172,7 +172,7 @@
                     {{-- Installments Section --}}
                     <div class="row mt-3">
                         <div class="col-md-12">
-                            <div class="card shadow-sm border-0">
+                            <div class="card shadow-sm border-0"> 
                                 <div class="card-header py-3" style="background: linear-gradient(135deg, #11998e 0%, #29a458 100%);">
                                     <div class="d-flex justify-content-between align-items-center">
                                         <h5 class="mb-0 text-white">
